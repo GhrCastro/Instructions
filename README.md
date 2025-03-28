@@ -40,39 +40,39 @@ Para obter mais informações, acesse [Github Copilot Features](https://docs.git
 *   Abrir o  [https://myapps.microsoft.com/](https://myapps.microsoft.com/ "https://myapps.microsoft.com/") e clicar em "Github Enterprise Managed User", ao abrir a plataforma, realizar o login
 <br>
 
+![print1](https://github.com/user-attachments/assets/8fd512c7-4be3-47e9-984b-b085c6973436)
+
   
 <br>
 
    - Após isso, seguir os passos:
 
->- ##Passo 1: 
+>- Passo 1:
 >      [Clicar aqui](https://docs.github.com/en/copilot/getting-started-with-github-copilot "https://docs.github.com/en/copilot/getting-started-with-github-copilot")
 >   
 > <br>
 >
->    ![Design sem nome (1).gif](/.attachments/Design%20sem%20nome%20(1)-fae1830a-2145-4cd1-a36e-78d64791c468.gif)
+>    ![Design sem nome](https://github.com/user-attachments/assets/22e8973c-bee2-458a-b92f-08be27760f66)
+>
 >
 >    Ao clicar no botão ***<code>Get started for free</code>*** você será redirecionado, caso o contrário, ao clicar em ***<code>Open >in Visual Studio Code>*** sua IDE será aberta, solicitando que você se conecte ao copilot da IDE com a sua conta GitHub enterprise managed user para fazer a vinculação e ativação do recurso.
 ><br>
 >
 >  Após clicar, pode ser que a seguinte mensagem apareça num "pop-up" roxo: 
->![Design sem nome (3).gif](/.attachments/Design%20sem%20nome%20(3)-ef69491a-35fe-4502-b429-7ef464cf7c49.gif)
 >
+>![Design sem nome (3)](https://github.com/user-attachments/assets/ba91de32-2920-4770-a0d6-8d244a061347)
 > Neste caso, basta clicar em "Settings" e você será redirecionado para a seguinte página:
->
 ><br>
 >
-> ![V.png](/.attachments/V-17e824c9-572f-46c2-abe9-420657c45f56.png)
->      <br>
->    - ##*Passo 2:*
->        - ####Para IDE:
+>![print2](https://github.com/user-attachments/assets/e4b803ae-676d-430a-815b-e8c16e0bfbc6)
+> 
+>    - *Passo 2:*
+>        - Para IDE:
 >           Nesta página, você pode clicar em ***<code>Copilot in your IDE</code>*** para ser redirecionado à página original, onde, mais uma vez, basta clicar no botão ***<code>Open in Visual Studio Code</code>*** para que sua IDE seja aberta, e uma vez lá, basta clicar em ***<code>Sign in to start using Copilot for free</code>*** e sua conta github Enterprise user será vinculada, liberando o acesso.
->         - ####Para CLI:
+>         - Para CLI:
 >           Caso deseje utilizar o copilot via CLI, basta seguir os passos em [Utilizando o copilot em CLI(linhas de comando)](https://localiza.visualstudio.com/Infraestrutura%20-%20Localiza%20Agile/_wiki/wikis/Infraestrutura---Localiza-Agile.wiki?wikiVersion=GBwikiMaster&_a=edit&pagePath=/Wiki%20System%20Team%20e%20Shared%20Services/0%252DOnBoarding/Github%20Copilot&pageId=25739&anchor=*utilizando-o-copilot-em-cli-(linhas-de-comando)*)
->         - ####Para Mobile:
+>         - Para Mobile:
 >           O caso do uso no github moile é o mais básico de todos, você pode ler mais sobre [clicando aqui](https://docs.github.com/pt/copilot/using-github-copilot/copilot-chat/asking-github-copilot-questions-in-github-mobile), mas basta conectar a sua conta valdiada em um dispositivo móvel com o app do github baixado, e pronto, você pode abrir um chat com a IA
->
->
 >
 
 *   Fazer o **plug** in do Github Copilot na **IDE** utilizando o dados cadastrados no passo 1
@@ -82,35 +82,40 @@ Para obter mais informações, acesse [Github Copilot Features](https://docs.git
 
 </br>
 
-#*Dúvidas de como utilizar a ferramenta?*
+*Dúvidas de como utilizar a ferramenta?*
 ---
 *   Treinamento introdutório: [Treinamento Github Copilot (csod.com)](https://localiza.csod.com/ui/lms-learning-details/app/curriculum/19765139-b2be-43ed-88e7-ef7179a514d1 "https://localiza.csod.com/ui/lms-learning-details/app/curriculum/19765139-b2be-43ed-88e7-ef7179a514d1")
 *   Case de utilização do Copilot para resolução de débito técnico: [Qualidade de Código: Corrigindo problemas no SonarCloud com o Github Copilot (csod.com)](https://localiza.csod.com/ui/lms-learning-details/app/curriculum/755f9542-b21f-433a-9042-58c92f56670c "https://localiza.csod.com/ui/lms-learning-details/app/curriculum/755f9542-b21f-433a-9042-58c92f56670c")
 *   [ARTE no Backstage](https://backstage.localiza.com/arte/Engenharia/habilitadores/ferramentas/github-copilot/ "https://backstage.localiza.com/arte/engenharia/habilitadores/ferramentas/github-copilot/"): com boas práticas e cases de utilização:
 
 
->##*Utilizando o Copilot em CLI (Linhas de comando)* 
->- ###Pre-Requisitos:
->   - Acesso ao copilot liberado conforme o tópico anterior
->    - Github CLI instalado. Para instalação siga as instruções em [GitHub CLI repository](https://github.com/cli/cli#installation)
->    - Copilot instalado na extensao CLI. Para isto veja [Installing GitHub Copilot in the CLI](https://docs.github.com/en/copilot/github-copilot-in-the-cli/installing-github-copilot-in-the-cli). 
+>*Utilizando o Copilot em CLI (Linhas de comando)*
 >
->- ###Obtendo explicações de comando
+>  #*Pre-Requisitos:*
+>     - Acesso ao copilot liberado conforme o tópico anterior
+>     - Github CLI instalado. Para instalação siga as instruções em [GitHub CLI repository](https://github.com/cli/cli#installation)
+>     - Copilot instalado na extensao CLI. Para isto veja [Installing GitHub Copilot in the CLI](https://docs.github.com/en/copilot/github-copilot-in-the-cli/installing-github-copilot-in-the-cli). 
+> <br>
+>
+>  #*Obtendo explicações de comando:*
 >      Para pedir ao copilot em CLI para explicar um comando, dê run em **<code>gh copilot explain</code>** seguido pelo comando que 
 >você deseja que ele te explique. Por exemplo:
->      #####Shell
+>      ```Shell
 >       gh copilot explain "sudo apt-get"                                             
-> 
->- ###Obtendo sugestões de comando
+>      ```
+>
+>
+>  #*Obtendo sugestões de comando*
 >      Para pedir ao copilot em CLI para sugerir um comando, dê run em **<code>gh copilot suggest</code>** seguido pelo comando que 
 >você deseja. Por exemplo:
->      #####Shell
+>      ```Shell
 >       gh copilot suggest "Undo the last commit"
+>      ```
 >    O copilot em CLI irá começar uma sessão interativa para obter mais informações a respeito do que você deseja.
 >
 >    Se você escolher a opção **Execute command** depois que o Copilot CLI sugerir um comando qualquer, o Copilot irá copiar este para a sua clipboard e então sair da sessão interativa, então você poderá manualmente copiá-lo para sua CLI.
 > 
->     Se você deseja que o Copilot seja capaz de executar comandos por conta própria na sua CLI, você deve configurar o alias **<code>ghcs</code>**. Para isto veja [Configuring GitHub Copilot in the CLI](https://docs.github.com/en/copilot/github-copilot-in-the-cli/configuring-github-copilot-in-the-cli#setting-up-aliases).                       
+>    Se você deseja que o Copilot seja capaz de executar comandos por conta própria na sua CLI, você deve configurar o alias **<code>ghcs</code>**. Para isto veja [Configuring GitHub Copilot in the CLI](https://docs.github.com/en/copilot/github-copilot-in-the-cli/configuring-github-copilot-in-the-cli#setting-up-aliases).                       
 > 
 </br>
 
